@@ -1,5 +1,5 @@
 {
-    "name": "laravel-notification-channels/pusher-api-notifications",
+    "name": "andreshg112/pusher-api-notifications",
     "description": "Send Pusher API Notifications",
     "keywords": [
         "pusher-api-notifications",
@@ -7,7 +7,7 @@
         "pusher",
         "notifications"
     ],
-    "homepage": "https://github.com/laravel-notification-channels/pusher-api-notifications",
+    "homepage": "https://github.com/andreshg112/pusher-api-notifications",
     "license": "MIT",
     "authors": [
         {

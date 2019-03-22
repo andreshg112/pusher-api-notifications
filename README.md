@@ -1,13 +1,13 @@
 # Pusher API Notifications
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/laravel-notification-channels/pusher-api-notifications.svg?style=flat-square)](https://packagist.org/packages/laravel-notification-channels/pusher-api-notifications)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/andreshg112/pusher-api-notifications.svg?style=flat-square)](https://packagist.org/packages/andreshg112/pusher-api-notifications)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://travis-ci.com/andreshg112/pusher-api-notifications.svg?branch=master)](https://travis-ci.com/andreshg112/pusher-api-notifications)
 [![StyleCI](https://styleci.io/repos/175997406/shield)](https://styleci.io/repos/175997406)
 [![SensioLabsInsight](https://insight.symfony.com/projects/1b3c70de-4b10-4f3d-8a27-edd150e64193/mini.svg)](https://insight.symfony.com/projects/1b3c70de-4b10-4f3d-8a27-edd150e64193)
 [![Quality Score](https://img.shields.io/scrutinizer/g/andreshg112/pusher-api-notifications.svg?style=flat-square)](https://scrutinizer-ci.com/g/andreshg112/pusher-api-notifications)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/andreshg112/pusher-api-notifications/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/andreshg112/pusher-api-notifications/?branch=master)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel-notification-channels/pusher-api-notifications.svg?style=flat-square)](https://packagist.org/packages/laravel-notification-channels/pusher-api-notifications)
+[![Total Downloads](https://img.shields.io/packagist/dt/andreshg112/pusher-api-notifications.svg?style=flat-square)](https://packagist.org/packages/andreshg112/pusher-api-notifications)
 
 This package makes it easy to send notifications using [Pusher API Notifications](https://pusher.com/docs/javascript_quick_start) with Laravel 5.3 or greater.
 
@@ -24,23 +24,10 @@ This package makes it easy to send notifications using [Pusher API Notifications
 
 ## Installation
 
-> While this is not accepted in [Laravel Notification Channels](http://laravel-notification-channels.com/) and added to [Packagist](http://packagist.org), you have to add this in your `composer.json` file:
-
-```json
-{
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/andreshg112/pusher-api-notifications.git"
-        }
-    ]
-}
-```
-
 Require the package:
 
 ```bash
-$ composer require laravel-notification-channels/pusher-api-notifications
+$ composer require andreshg112/pusher-api-notifications
 ```
 
 ### Setting up the Pusher API Notifications service
