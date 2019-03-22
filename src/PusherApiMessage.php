@@ -1,6 +1,6 @@
 <?php
 
-namespace NotificationChannels\PusherApiNotifications;
+namespace Andreshg112\PusherApiNotifications;
 
 class PusherApiMessage
 {

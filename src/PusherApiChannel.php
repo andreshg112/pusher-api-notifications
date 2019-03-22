@@ -1,9 +1,9 @@
 <?php
 
-namespace NotificationChannels\PusherApiNotifications;
+namespace Andreshg112\PusherApiNotifications;
 
 use Illuminate\Notifications\Notification;
-use NotificationChannels\PusherApiNotifications\Exceptions\CouldNotSendNotification;
+use Andreshg112\PusherApiNotifications\Exceptions\CouldNotSendNotification;
 
 class PusherApiChannel
 {
@@ -21,7 +21,7 @@ class PusherApiChannel
      * @param mixed $notifiable
      * @param \Illuminate\Notifications\Notification $notification
      *
-     * @throws \NotificationChannels\PusherApiNotifications\Exceptions\CouldNotSendNotification
+     * @throws \Andreshg112\PusherApiNotifications\Exceptions\CouldNotSendNotification
      */
     public function send($notifiable, Notification $notification)
     {

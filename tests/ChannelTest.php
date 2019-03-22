@@ -1,14 +1,14 @@
 <?php
 
-namespace NotificationChannels\PusherApiNotifications\Test;
+namespace Andreshg112\PusherApiNotifications\Test;
 
 use Mockery;
 use Orchestra\Testbench\TestCase;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Notifications\Notification;
-use NotificationChannels\PusherApiNotifications\PusherApiChannel;
-use NotificationChannels\PusherApiNotifications\PusherApiMessage;
-use NotificationChannels\PusherApiNotifications\Exceptions\CouldNotSendNotification;
+use Andreshg112\PusherApiNotifications\PusherApiChannel;
+use Andreshg112\PusherApiNotifications\PusherApiMessage;
+use Andreshg112\PusherApiNotifications\Exceptions\CouldNotSendNotification;
 
 class ChannelTest extends TestCase
 {

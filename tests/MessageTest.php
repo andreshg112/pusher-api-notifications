@@ -1,10 +1,10 @@
 <?php
 
-namespace NotificationChannels\PusherApiNotifications\Test;
+namespace Andreshg112\PusherApiNotifications\Test;
 
 use Orchestra\Testbench\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
-use NotificationChannels\PusherApiNotifications\PusherApiMessage;
+use Andreshg112\PusherApiNotifications\PusherApiMessage;
 
 class MessageTest extends TestCase
 {

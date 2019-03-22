@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "NotificationChannels\\PusherApiNotifications\\": "src"
+            "Andreshg112\\PusherApiNotifications\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "NotificationChannels\\PusherApiNotifications\\Test\\": "tests"
+            "Andreshg112\\PusherApiNotifications\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -47,7 +47,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "NotificationChannels\\PusherApiNotifications\\PusherApiServiceProvider"
+                "Andreshg112\\PusherApiNotifications\\PusherApiServiceProvider"
             ]
         }
     }

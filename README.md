@@ -39,7 +39,7 @@ This package requires [pusher/pusher-http-laravel ^4.2](https://github.com/pushe
 ```php
 'providers' => [
     // ...,
-    NotificationChannels\PusherApiNotifications\PusherApiServiceProvider::class,
+    Andreshg112\PusherApiNotifications\PusherApiServiceProvider::class,
 ],
 ```
 
@@ -50,7 +50,7 @@ This package requires [pusher/pusher-http-laravel ^4.2](https://github.com/pushe
 In your notification, add the `PusherApiChannel` to the `via()` function:
 
 ```php
-use NotificationChannels\PusherApiNotifications\PusherApiChannel;
+use Andreshg112\PusherApiNotifications\PusherApiChannel;
 
 public function via($notifiable)
 {
@@ -61,7 +61,7 @@ public function via($notifiable)
 Then, create a method called `toApiNotification()` in your notification:
 
 ```php
-use NotificationChannels\PusherApiNotifications\PusherApiMessage;
+use Andreshg112\PusherApiNotifications\PusherApiMessage;
 
 public function toApiNotification($notifiable)
 {

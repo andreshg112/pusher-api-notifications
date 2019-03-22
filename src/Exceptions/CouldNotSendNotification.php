@@ -1,6 +1,6 @@
 <?php
 
-namespace NotificationChannels\PusherApiNotifications\Exceptions;
+namespace Andreshg112\PusherApiNotifications\Exceptions;
 
 class CouldNotSendNotification extends \Exception
 {
