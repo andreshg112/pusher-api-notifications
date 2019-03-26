@@ -4,7 +4,6 @@
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://travis-ci.com/andreshg112/pusher-api-notifications.svg?branch=master)](https://travis-ci.com/andreshg112/pusher-api-notifications)
 [![StyleCI](https://styleci.io/repos/175997406/shield)](https://styleci.io/repos/175997406)
-[![SensioLabsInsight](https://insight.symfony.com/projects/1b3c70de-4b10-4f3d-8a27-edd150e64193/mini.svg)](https://insight.symfony.com/projects/1b3c70de-4b10-4f3d-8a27-edd150e64193)
 [![Quality Score](https://img.shields.io/scrutinizer/g/andreshg112/pusher-api-notifications.svg?style=flat-square)](https://scrutinizer-ci.com/g/andreshg112/pusher-api-notifications)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/andreshg112/pusher-api-notifications/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/andreshg112/pusher-api-notifications/?branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/andreshg112/pusher-api-notifications.svg?style=flat-square)](https://packagist.org/packages/andreshg112/pusher-api-notifications)
