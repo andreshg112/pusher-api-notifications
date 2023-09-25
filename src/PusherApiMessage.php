@@ -4,33 +4,33 @@ namespace Andreshg112\PusherApiNotifications;
 
 class PusherApiMessage
 {
-    /** @var string $channels */
+    /** @var string */
     protected $channels = null;
 
-    /** @var string $event */
+    /** @var string */
     protected $event = null;
 
-    /** @var array|string $data */
+    /** @var array|string */
     protected $data = null;
 
-    /** @var string $socketId */
+    /** @var string */
     protected $socketId = null;
 
-    /** @var bool $debug */
+    /** @var bool */
     protected $debug = false;
 
-    /** @var bool $alreadyEncoded */
+    /** @var bool */
     protected $alreadyEncoded = false;
 
     /**
      * Creates the instance.
      *
-     * @param array|string $channels
-     * @param string $event
-     * @param mixed $data
-     * @param string|null $socketId
-     * @param bool $debug
-     * @param bool $alreadyEncoded
+     * @param  array|string  $channels
+     * @param  string  $event
+     * @param  mixed  $data
+     * @param  string|null  $socketId
+     * @param  bool  $debug
+     * @param  bool  $alreadyEncoded
      */
     public function __construct(
         $channels = null,
@@ -51,8 +51,8 @@ class PusherApiMessage
     /**
      * A channel name or an array of channel names to publish the event on.
      *
-     * @param array|string $channels
-     * @return  $this
+     * @param  array|string  $channels
+     * @return $this
      */
     public function channels($channels)
     {
@@ -64,8 +64,8 @@ class PusherApiMessage
     /**
      * Pusher event.
      *
-     * @param string $event
-     * @return  $this
+     * @param  string  $event
+     * @return $this
      */
     public function event($event)
     {
@@ -77,8 +77,8 @@ class PusherApiMessage
     /**
      * Event data.
      *
-     * @param mixed $data
-     * @return  $this
+     * @param  mixed  $data
+     * @return $this
      */
     public function data($data)
     {
@@ -90,8 +90,8 @@ class PusherApiMessage
     /**
      * [optional].
      *
-     * @param string|null $socketId
-     * @return  $this
+     * @param  string|null  $socketId
+     * @return $this
      */
     public function socketId($socketId = null)
     {
@@ -103,8 +103,8 @@ class PusherApiMessage
     /**
      * [optional].
      *
-     * @param bool $debug
-     * @return  $this
+     * @param  bool  $debug
+     * @return $this
      */
     public function debug($debug = false)
     {
@@ -116,8 +116,8 @@ class PusherApiMessage
     /**
      * [optional].
      *
-     * @param bool $alreadyEncoded
-     * @return  $this
+     * @param  bool  $alreadyEncoded
+     * @return $this
      */
     public function alreadyEncoded($alreadyEncoded = false)
     {

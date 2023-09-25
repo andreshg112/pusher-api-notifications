@@ -2,12 +2,12 @@
 
 namespace Andreshg112\PusherApiNotifications;
 
-use Illuminate\Notifications\Notification;
 use Andreshg112\PusherApiNotifications\Exceptions\CouldNotSendNotification;
+use Illuminate\Notifications\Notification;
 
 class PusherApiChannel
 {
-    /** @var \Pusher|\Pusher\Pusher $pusher */
+    /** @var \Pusher|\Pusher\Pusher */
     protected $pusher;
 
     public function __construct(\Pusher $pusher)
@@ -18,8 +18,8 @@ class PusherApiChannel
     /**
      * Send the given notification.
      *
-     * @param mixed $notifiable
-     * @param \Illuminate\Notifications\Notification $notification
+     * @param  mixed  $notifiable
+     * @param  \Illuminate\Notifications\Notification  $notification
      *
      * @throws \Andreshg112\PusherApiNotifications\Exceptions\CouldNotSendNotification
      */

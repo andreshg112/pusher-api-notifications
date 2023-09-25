@@ -2,9 +2,9 @@
 
 namespace Andreshg112\PusherApiNotifications\Test;
 
-use Orchestra\Testbench\TestCase;
-use Illuminate\Foundation\Testing\WithFaker;
 use Andreshg112\PusherApiNotifications\PusherApiMessage;
+use Illuminate\Foundation\Testing\WithFaker;
+use Orchestra\Testbench\TestCase;
 
 class MessageTest extends TestCase
 {
