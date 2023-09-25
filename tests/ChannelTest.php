@@ -2,26 +2,26 @@
 
 namespace Andreshg112\PusherApiNotifications\Test;
 
-use Mockery;
-use Orchestra\Testbench\TestCase;
-use Illuminate\Notifications\Notifiable;
-use Illuminate\Notifications\Notification;
+use Andreshg112\PusherApiNotifications\Exceptions\CouldNotSendNotification;
 use Andreshg112\PusherApiNotifications\PusherApiChannel;
 use Andreshg112\PusherApiNotifications\PusherApiMessage;
-use Andreshg112\PusherApiNotifications\Exceptions\CouldNotSendNotification;
+use Illuminate\Notifications\Notifiable;
+use Illuminate\Notifications\Notification;
+use Mockery;
+use Orchestra\Testbench\TestCase;
 
 class ChannelTest extends TestCase
 {
-    /** @var \Pusher $pusher */
+    /** @var \Pusher */
     protected $pusher = null;
 
-    /** @var PusherApiChannel $channel */
+    /** @var PusherApiChannel */
     protected $channel = null;
 
-    /** @var TestNotification $notification */
+    /** @var TestNotification */
     protected $notification = null;
 
-    /** @var TestNotifiable $notifiable */
+    /** @var TestNotifiable */
     protected $notifiable = null;
 
     public function setUp(): void
