@@ -28,8 +28,8 @@ class ChannelTest extends TestCase
     {
         $this->pusher = Mockery::mock(\Pusher::class);
         $this->channel = new PusherApiChannel($this->pusher);
-        $this->notification = new TestNotification;
-        $this->notifiable = new TestNotifiable;
+        $this->notification = new TestNotification();
+        $this->notifiable = new TestNotifiable();
 
         parent::setUp();
     }

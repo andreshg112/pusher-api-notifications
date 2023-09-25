@@ -53,7 +53,7 @@ class MessageTest extends TestCase
             'alreadyEncoded' => $this->faker->boolean,
         ];
 
-        $message = (new PusherApiMessage)
+        $message = (new PusherApiMessage())
             ->channels($attributes['channels'])
             ->event($attributes['event'])
             ->data($attributes['data'])
